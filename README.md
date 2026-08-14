@@ -100,6 +100,47 @@ The selected calculation parameters were:
 | Cohesive energy | -5.18 eV/atom |
 
 
+## Silicene
+
+### Lattice Constant Calculation
+
+The equilibrium lattice constant of silicene was determined by calculating the total energy for different lattice parameters.
+
+Calculated equilibrium lattice constant:
+
+**a = 3.85 Å**
+
+Minimum calculated total energy:
+
+**E = -9.56836669 eV**
+
+![Silicene lattice scan](figures/silicene_lattice_scan.png)
+
+The calculated lattice constant is consistent with the reported literature value of approximately 3.86 Å.
+
+### Convergence Parameters
+
+The selected calculation parameters were:
+
+- ENCUT: 600 eV
+- k-point mesh: 12 × 12 × 1
+- Vacuum distance: 18 Å
+
+### Structural Properties
+
+| Property | Calculated |
+|---|---:|
+| Lattice constant | 3.85 Å |
+| Si-Si bond length | 2.277 Å |
+| Bond angle | 116.32° |
+| Cohesive energy | -3.97 eV/atom |
+
+### Reference
+
+Cahangirov, S., Topsakal, M., Aktürk, E., Şahin, H., & Ciraci, S.  
+*Two- and One-Dimensional Honeycomb Structures of Silicon and Germanium.*  
+Physical Review Letters, 102, 236804 (2009).
+
 
 
 ## Repository Structure
