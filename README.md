@@ -142,6 +142,66 @@ Cahangirov, S., Topsakal, M., Aktürk, E., Şahin, H., & Ciraci, S.
 Physical Review Letters, 102, 236804 (2009).
 
 
+## Phosphorene
+
+### Lattice Parameter Analysis
+
+Unlike hexagonal 2D materials such as graphene and MoS₂, phosphorene has an anisotropic structure characterized by two different in-plane lattice parameters.
+
+The lattice parameters were determined by varying the structural scale factors and monitoring the total energy.
+
+![Phosphorene lattice scan](figures/phosphorene_lattice_scan.png)
+
+The minimum-energy configurations corresponded approximately to scale factors of:
+
+- 1.00 along one lattice direction
+- 1.01 along the second lattice direction
+
+Using the initial lattice parameters, the optimized lattice constants were obtained as:
+
+**a = 3.29 Å**
+
+**b = 4.58 Å**
+
+### Convergence Parameters
+
+The selected calculation parameters were:
+
+- ENCUT: 400 eV
+- k-point mesh: 12 × 12 × 1
+- Vacuum distance: 16 Å
+
+### Structural Properties
+
+| Property | Calculated |
+|---|---:|
+| Lattice constant a | 3.29 Å |
+| Lattice constant b | 4.58 Å |
+| P-P bond length | 2.20 Å |
+| Bond angle | 96.73° |
+| Cohesive energy | 3.4998 eV/atom |
+
+### Electronic Band Structure
+
+The electronic band structure was calculated along the high-symmetry path:
+
+**Γ – X – S – Y – Γ**
+
+![Phosphorene band structure](figures/phosphorene_band_structure.png)
+
+The calculated band gap was approximately:
+
+**Eg ≈ 0.86 eV**
+
+### Reference
+
+Liu, H., Neal, A. T., Zhu, Z., Luo, Z., Xu, X., Tománek, D., & Ye, P. D.  
+*Phosphorene: An Unexplored 2D Semiconductor with a High Hole Mobility.*  
+ACS Nano, 8(4), 4033–4041 (2014).
+
+
+
+
 
 ## Repository Structure
 

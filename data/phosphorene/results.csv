@@ -1,0 +1,8 @@
+property,calculated_value,unit
+lattice_constant_a,3.29,A
+lattice_constant_b,4.58,A
+bond_length,2.20,A
+bond_angle,96.73,degree
+cohesive_energy,3.4998,eV/atom
+band_gap,0.86,eV
+
