@@ -185,7 +185,7 @@ The selected calculation parameters were:
 | Lattice constant b | 4.58 Å |
 | P-P bond length | 2.20 Å |
 | Bond angle | 96.73° |
-| Cohesive energy | 3.4998 eV/atom |
+| Cohesive energy | -3.4998 eV/atom |
 
 ### Electronic Band Structure
 
