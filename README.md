@@ -2,7 +2,7 @@
 
 Density Functional Theory (DFT) study of graphene, MoS₂, silicene, and phosphorene using VASP.
 
-This repository documents structural and electronic-property analyses performed during a computational materials science project. The calculations included convergence testing, geometry optimization, cohesive-energy calculations, lattice-parameter analysis, and electronic band-structure calculations.
+This repository documents structural and electronic-property analyses performed during a computational materials science project.
 
 ## Materials
 
@@ -59,6 +59,48 @@ The selected calculation parameters were:
 | C-C bond length | 1.426 Å |
 | Bond angle | 120° |
 | Cohesive energy | -7.8547 eV/atom |
+
+
+
+
+## MoS₂
+
+### Lattice Constant Calculation
+
+The equilibrium lattice constant of monolayer MoS₂ was determined by calculating the total energy for different lattice parameters.
+
+Calculated equilibrium lattice constant:
+
+**a = 3.18 Å**
+
+Minimum calculated total energy:
+
+**E = -21.797814 eV**
+
+![MoS2 lattice scan](figures/mos2_lattice_scan.png)
+
+The calculated lattice constant is consistent with literature values reported in the range of approximately 3.16–3.20 Å.
+
+### Convergence Parameters
+
+The selected calculation parameters were:
+
+- ENCUT: 600 eV
+- k-point mesh: 9 × 9 × 1
+- Vacuum distance: 18 Å
+
+### Structural Properties
+
+| Property | Calculated |
+|---|---:|
+| Lattice constant | 3.18 Å |
+| Mo-S bond length | 2.412 Å |
+| S-S distance | 3.129 Å |
+| S-Mo-S bond angle | 80.87° |
+| Cohesive energy | -5.18 eV/atom |
+
+
+
 
 ## Repository Structure
 
