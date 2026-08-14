@@ -135,6 +135,12 @@ The selected calculation parameters were:
 | Bond angle | 116.32° |
 | Cohesive energy | -3.97 eV/atom |
 
+### Electronic Band Structure
+
+The electronic band structure of silicene was calculated along selected high-symmetry directions.
+
+![Silicene band structure](figures/silicene_band_structure.png)
+
 ### Reference
 
 Cahangirov, S., Topsakal, M., Aktürk, E., Şahin, H., & Ciraci, S.  
